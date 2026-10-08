@@ -1,0 +1,14 @@
+{
+  "name": "drip-and-coil-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Drip & Coil store with real admin, products and orders",
+  "main": "server.js",
+  "scripts": {"start":"node server.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^5.1.0"
+  }
+}
